@@ -172,7 +172,7 @@ map_data = {
 
 output_path = "library.tmj"
 with open(output_path, "w") as f:
-    json.dump(map_data, f, indent=2)
+    json.dump(map_data, f)
 
 print(f"Done. {WIDTH}x{HEIGHT} map written to {output_path}")
 print(f"Spawn: tile ({WIDTH//2}, {HEIGHT//2})")
