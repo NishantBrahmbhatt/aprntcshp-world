@@ -1,7 +1,7 @@
 import json
 
-WIDTH  = 100
-HEIGHT = 100
+WIDTH  = 500
+HEIGHT = 200
 TILE   = 32
 
 FLOOR     = 388  # warm wood tile from WA_Room_Builder
